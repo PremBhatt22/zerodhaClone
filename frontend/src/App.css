@@ -1,0 +1,38 @@
+.navbox {
+  height: 4rem;
+}
+.logo {
+  height: 1rem;
+  width: 9rem;
+  margin: 1.5rem 6rem 1.5rem 6rem;
+}
+.links {
+  display: none;
+}
+.links ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.links li {
+  margin-right: 3rem;
+  color: rgb(85, 82, 82);
+}
+.hide-lg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+
+@media (min-width: 1000px) {
+  .masterBtn {
+    display: none;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+}
