@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3000;
 const URL = process.env.MONGO_URL;
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Replace with your frontend's URL
+  origin: "http://localhost:5174", // Replace with your frontend's URL
   credentials: true, // Allow credentials like cookies or authorization headers
 };
 
